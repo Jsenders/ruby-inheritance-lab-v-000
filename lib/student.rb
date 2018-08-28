@@ -8,4 +8,5 @@ def initialize
   def learn(fact)
     @knowledge << fact
   end
+  return @knowledge 
 end
